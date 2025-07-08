@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(86, 64, 96);
+  background-size: 100%;
+  font-family: "Arial", sans-serif, "helvectica new";
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2 {
+  font-size: 50px;
+  margin: auto;
+}
+#divs {
+  width: 500px;
+  background-color: rgb(115, 33, 170);
+  background-size: auto;
+  font-family: "Courier New", Courier, monospace;
+  padding: 30px 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+p {
+  font-size: medium;
+  font-style: italic;
+}
+#increment-btn {
+  background-color: mediumpurple;
+  color: whitesmoke;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  font-size: large;
+  margin-right: 10px;
+}
+#save-btn {
+  background-color: lightgreen;
+  color: aliceblue;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: large;
+}
